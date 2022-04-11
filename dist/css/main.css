@@ -356,7 +356,7 @@ html {
   --primary-100: hsl(179, 62%, 43%);
   --primary-200: hsl(71, 73%, 54%);
   /* neutrals */
-  --Grey-50: hsl(218, 22%, 67%);
+  --grb: hsl(218, 22%, 67%);
   --lg: hsl(204, 43%, 93%);
   /* rest of the colors */
   --black: #222;
@@ -622,4 +622,96 @@ main {
   max-width: 34.5rem;
   box-shadow: var(--shadow-4);
   border-radius: var(--radius);
+}
+
+.box {
+  padding: 1.8rem;
+  padding-inline: 2rem;
+  display: grid;
+  place-items: start;
+}
+
+.item-1 {
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+  background-color: var(--white);
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+.item-1 h2 {
+  color: var(--primary-100);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.item-1 h3 {
+  color: var(--primary-200);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 0.3rem;
+}
+.item-1 p {
+  color: var(--grb);
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+
+.item-2 {
+  background-color: var(--primary-100);
+}
+.item-2 h3 {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+}
+.item-2 p {
+  color: var(--white);
+  font-size: 1rem;
+}
+.item-2 p span {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+.item-2 .price {
+  display: flex;
+  align-items: center;
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+  color: var(--lg);
+  letter-spacing: 0.05rem;
+}
+.item-2 .price span {
+  color: var(--white);
+}
+.item-2 .button {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 0.75rem;
+  background-color: var(--primary-200);
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 700;
+  box-shadow: var(--shadow-4);
+  border-radius: 0.25rem;
+}
+
+.item-3 {
+  background-color: hsl(179deg, 47%, 52%);
+  padding-bottom: 0.5rem;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+.item-3 h3 {
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 0rem;
+}
+.item-3 ul {
+  color: var(--lg);
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */
