@@ -733,6 +733,13 @@ main {
     padding-bottom: 2rem;
     padding-top: 3rem;
   }
+  .item-2 .button {
+    transition: var(--transition);
+  }
+  .item-2 .button:hover {
+    color: var(--primary-200);
+    background-color: var(--white);
+  }
 
   .item-3 {
     grid-area: c;
