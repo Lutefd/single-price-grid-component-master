@@ -1,0 +1,7 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 34.5rem;
+  box-shadow: var(--shadow-4);
+  border-radius: var(--radius);
+}
