@@ -662,7 +662,7 @@ main {
 }
 .item-2 h3 {
   color: var(--white);
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.4rem;
   letter-spacing: 0;
 }
@@ -725,6 +725,12 @@ main {
   .item-1 {
     grid-area: a;
   }
+  .item-1 h2 {
+    font-size: 1.5rem;
+  }
+  .item-1 h3 {
+    font-size: 1.3rem;
+  }
 
   .item-2 {
     grid-area: b;
@@ -732,6 +738,9 @@ main {
     padding-inline: 2.5rem;
     padding-bottom: 2rem;
     padding-top: 3rem;
+  }
+  .item-2 h3 {
+    font-weight: 700;
   }
   .item-2 .button {
     transition: var(--transition);
@@ -747,5 +756,8 @@ main {
     padding-bottom: 2rem;
     padding-top: 2.5rem;
     padding-inline: 3rem;
+  }
+  .item-3 h3 {
+    font-weight: 700;
   }
 }/*# sourceMappingURL=main.css.map */

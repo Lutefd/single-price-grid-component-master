@@ -40,7 +40,7 @@
   background-color: var(--primary-100);
   h3 {
     color: var(--white);
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.4rem;
     letter-spacing: 0;
   }
@@ -102,6 +102,12 @@
   }
   .item-1 {
     grid-area: a;
+    h2 {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 1.3rem;
+    }
   }
   .item-2 {
     grid-area: b;
@@ -109,6 +115,9 @@
     padding-inline: 2.5rem;
     padding-bottom: 2rem;
     padding-top: 3rem;
+    h3 {
+      font-weight: 700;
+    }
     .button {
       transition: var(--transition);
     }
@@ -118,6 +127,9 @@
     }
   }
   .item-3 {
+    h3 {
+      font-weight: 700;
+    }
     grid-area: c;
     border-bottom-left-radius: 0;
     padding-bottom: 2rem;
